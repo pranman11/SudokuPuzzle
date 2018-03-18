@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GridActivity">
+        <!--<item-->
+                <!--android:id="@+id/backButton"-->
+                <!--android:icon="@drawable/ic"-->
+                <!--android:showAsAction="always"-->
+                <!--android:title="Back Button" />-->
+        <item
+            android:id="@+id/solveSudoku"
+            android:title="Sudoku Solver"
+            android:showAsAction="never"/>
+        <item
+            android:id="@+id/pauseTime"
+            android:title="Pause"
+            android:showAsAction="never"/>
+        <item
+            android:id="@+id/Resume"
+            android:title="Resume"
+            android:showAsAction="never"/>
+</menu>
